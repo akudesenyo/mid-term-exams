@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Mid Term Exam Website</title>
+</head>
+<body>
+
+    <!-- My Name -->
+    <p>My name is [Your Full Name Here]</p>
+
+    <!-- My Hobby Heading -->
+    <h1>My Favourite Hobby is Reading Storybooks</h1>
+
+    <!-- Why I like it paragraph -->
+    <p>I really love reading storybooks because they take me to beautiful places in my imagination. Reading helps me to learn a lot of new English words, and it is a great way to enjoy myself before I go to bed at night.</p>
+
+    <!-- Unordered List -->
+    <h3>Things I need for reading:</h3>
+    <ul>
+        <li>Interesting storybooks or comic books</li>
+        <li>A quiet and comfortable place to sit</li>
+        <li>A bright desk lamp or light so I can see clearly</li>
+    </ul>
+
+    <!-- Image -->
+    <h3>A picture of books:</h3>
+    <img src="books.jpg" alt="A stack of storybooks" width="300">
+
+    <!-- Video -->
+    <h3>A video about reading stories:</h3>
+    <video src="reading.mp4" controls width="300">
+        Your browser cannot play this video.
+    </video>
+
+    <!-- The Form -->
+    <h2>Please fill my form:</h2>
+    <form>
+        <!-- Visitor Name -->
+        <p>
+            <label>Enter your name:</label>
+            <input type="text" name="name">
+        </p>
+
+        <!-- Visitor Email -->
+        <p>
+            <label>Enter your email:</label>
+            <input type="email" name="email">
+        </p>
+
+        <!-- Checkbox -->
+        <p>
+            <label>Choose your favourite hobby:</label><br>
+            <input type="checkbox" name="hobby" value="reading"> Reading books
+        </p>
+
+        <!-- Submit Button -->
+        <p>
+            <input type="submit" value="Click to Submit">
+        </p>
+    </form>
+
+</body>
+</html>
